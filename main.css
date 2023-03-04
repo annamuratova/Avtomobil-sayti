@@ -1,0 +1,674 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 86%;
+    margin: 0 auto;
+}
+
+.nav-small {
+    padding: 10px;
+    display: none;
+}
+.modal,
+.navbar img,
+#nav-button{
+    display: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 10px 0;
+
+}
+
+.head {
+    background-image: url(./img/manzara1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.inner {
+    background-image: linear-gradient(#FFFFFF 0%, rgba(255, 255, 255, 0) 80%);
+
+}
+
+.family {
+    font-family: "Montserrat";
+}
+
+nav ul {
+    font-family: "Montserrat";
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #242424;
+    transition: all .3s;
+}
+
+nav ul li:hover {
+    color: #41BCE7;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn {
+    border: none;
+    background: #FA002C;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.left {
+    margin: 30px 0;
+    padding: 30px 50px;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 24px;
+    display: inline-block;
+    opacity: .6;
+    z-index: 2;
+    border: 1px solid #fff;
+}
+
+.left h1 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    color: #282828;
+}
+
+.left ul {
+    width: 70%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+
+}
+
+.left ul li {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.left ul li i {
+    margin-right: 10px;
+}
+
+.left ul img {
+    width: 2px;
+}
+
+.left .btn {
+    padding: 13px 25px;
+}
+
+.left>i {
+    font-size: 28px;
+    margin: 20px;
+    color: #ff0000;
+}
+
+.left i:nth-child(4) {
+    color: #41BCE7;
+}
+
+.right {
+    width: 50%;
+    position: absolute;
+    display: inline-block;
+    right: 120px;
+    bottom: 35px;
+}
+
+.right img {
+    width: 100%;
+}
+
+.vidio {
+    padding: 40px 50px;
+    position: absolute;
+    top: 25%;
+    right: 30%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 21px;
+    text-align: center;
+}
+
+.vidio i {
+    font-size: 40px;
+}
+
+main {
+    background-color: #F4F6F8;
+    margin: 0;
+    padding: 30px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+main h2 {
+    max-width: 500px;
+    margin: 0;
+}
+
+main>p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+main .col {
+    border: 1px dashed #D6A7AF;
+    border-top: none;
+    padding: 30px 20px 0 40px;
+    position: relative;
+}
+
+.col p {
+    font-weight: 500;
+    line-height: 18px;
+}
+
+main .col div {
+    border-bottom: 1px dashed #FA002C;
+    width: 80%;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+
+.col span {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FA002C;
+}
+
+main .col:hover {
+    background-color: #fff;
+    border-radius: 22px;
+    border: none;
+}
+
+.main {
+    background-image: url(./img/avto2.png);
+    background-size: cover;
+    padding: 30px 0px 30px 30px;
+    margin: 30px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 36px 36px 36px 0;
+    border-right: 2px solid #D6A7AF;
+}
+
+.main .main-card {
+    width: 40%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.main-card h2 {
+    font-size: 2.5rem;
+    line-height: 69px;
+}
+
+.main-card input {
+    padding-left: 10px;
+    border: 1px solid #C9C9C9;
+    border-radius: 14px;
+    width: 400px;
+    height: 60px;
+    font-weight: bold;
+}
+
+.main-card .btn {
+    box-shadow: 0px 10px 15px rgba(250, 0, 44, 0.4);
+    margin-right: 20px;
+}
+
+.main .grid {
+    margin-top: 10px;
+}
+
+.main .col {
+    border: none;
+    padding: 30px 20px 0 40px;
+}
+
+.cards {
+    margin: 35px 0;
+}
+
+.card {
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.12);
+    border-radius: 36px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.card b {
+    font-size: 20px;
+}
+
+.card ul {
+    padding-left: 0;
+}
+
+.card ul li {
+    margin-bottom: 8px;
+    margin-right: 50px;
+}
+
+.card ul li:nth-child(2n) {
+    margin-right: 70px;
+}
+
+.card ul li:nth-child(1) {
+    margin-right: 0;
+}
+
+.card ul li:nth-child(5) {
+    margin-right: 40px;
+}
+
+.card ul li div {
+    width: 48%;
+    border-bottom: 1px dashed #C1C1C1;
+}
+
+.card ul li span {
+    font-weight: 600;
+}
+
+.card .line {
+    display: inline-block;
+    width: 56%;
+    height: 1px;
+    background-color: #C1C1C1;
+}
+
+.sm-card {
+    padding: 10px;
+    margin-bottom: 7px;
+}
+
+.card .sm-card p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.card .sm-card:hover {
+    background-color: #FEE5E9;
+    border-radius: 20px 0 0 20px;
+    color: #FA002C;
+}
+
+.card button {
+    padding: 1rem 3.5rem;
+    box-shadow: 0px 9px 13px rgba(250, 0, 44, 0.4);
+}
+
+.content {
+    padding: 40px 0;
+    background-color: #F4F6F8;
+    position: relative;
+}
+
+.content h2 {
+    max-width: 750px;
+}
+
+.content .grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.content .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 36px;
+}
+
+.content .col:nth-child(1) {
+    background-image: url(./img/avt05.png);
+    background-size: cover;
+    color: #fff;
+}
+
+.content .col h4 {
+    margin: 0;
+}
+
+.content .red {
+    background: #FA002C;
+    border-radius: 4px;
+    transform: rotate(90deg);
+    width: 120px;
+    height: 10px;
+    position: absolute;
+    left: 20px;
+    top: 30%;
+}
+
+.content .row {
+    width: 80%;
+    /* margin-top: 40px;  */
+    margin-left: auto;
+}
+
+.row p {
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+}
+
+.row b {
+    font-size: 30px;
+}
+
+.sm-line {
+    color: #FA002C;
+    font-size: 50px;
+}
+
+.slayder {
+    padding: 90px 0;
+}
+
+.slayder ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.slayder ul li {
+    border-bottom: 1px solid #C2C2C2;
+}
+
+ .sm-line { 
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+    padding-bottom: 10px;
+}
+
+.slayder .card p {
+    font-size: 14px;
+}
+
+.answer {
+    max-width: 80%;
+ display: none;
+    color: #292929;
+    font-size: 14px;
+    margin-left: 27px;
+}
+
+.show {
+     display: block !important; 
+}
+
+.collapse .ask:nth-child(6) {
+    margin-top: 30px;
+    display: flex;
+    align-items: start;
+}
+
+.collapse .ask button {
+     border: none; 
+    background-color: #fff;
+    vertical-align: middle;
+    padding-bottom: 6px;
+    font-size: 18px;
+}
+.collapse .ask button:hover{
+    cursor: pointer;
+    color: #FA002C;
+}
+
+.ask b {
+    display: inline-block;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.ask i {
+    color: #FA002C;
+    font-size: 40px;
+    box-shadow: 0px 12px 40px rgba(250, 0, 44, 0.4);
+    border-radius: 10px;
+}
+
+footer{
+    margin-top:80px;
+    padding: 50px 0;
+    background-color: #eee;
+}
+footer .f-left{
+    width: 30%;
+    font-size: 14px;
+}
+footer .f-right{
+    margin-left: 160px;
+    font-size: 14px;
+    width: 20%;
+}
+footer .f-right .btn{
+    margin-bottom: 25px;
+}
+.f-right i{
+    margin-right: 5px;
+    color: #FA002C;
+}
+footer ul{
+    list-style: none;
+    font-size: 14px;
+}
+footer ul li{
+    margin-bottom: 20px;
+}
+.modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    left:0;
+    top: 0;
+    background-color: rgba(77, 73, 73, 0.9);
+    z-index: ;
+}
+ 
+
+
+
+@media(max-width:768px) {
+    .navbar {
+        height: 100vh;
+        position: fixed;
+        top:0;
+        left: -100%;
+        z-index: 2;
+        background-color: #fff;
+        width: 55%;
+        transition: all .5s;
+    }
+   
+    .navbar ul {
+        flex-direction: column;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .navbar ul li{
+         margin-top:20px ;
+    }
+
+    nav .logo {
+        display: none;
+    }
+    .navbar img{
+        display: inline-block;
+        margin-top: 20px; 
+    }
+    #nav-button{
+        display: inline-block;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    #menu-button{
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .nav-small {
+        padding-left: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .right {
+        position: static;
+    }
+
+    .vidio {
+        display: none;
+    }
+
+    .left {
+        width: 80%;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .main .main-card {
+        width: 90%;
+        margin-bottom: 100px;
+    }
+
+     .card {
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .content .row {
+        width: 100%;
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+
+    .row p {
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    .red,
+    .row .sm-line:nth-child(1) {
+        display: none;
+    }
+    .slayder ul{
+        display: none;
+    }
+    footer .f-left,
+    footer .f-right{
+        width: 80%;
+        margin:15px 0;
+    }
+    footer .f-right{
+        order: 1;
+    }
+    footer ul{
+        order: 3;
+    }
+}
+
+@media(max-width:576px) {
+    .container {
+        width: 95%;
+    }
+
+    .head {
+        background-image: url(./img/manzara2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left {
+        padding: 25px;
+    }
+
+    .left ul {
+        width: 80%;
+    }
+
+    .main .main-card {
+        width: 85%;
+    }
+
+    .main .main-card input {
+        width: 90%;
+    }
+
+    .cards .card {
+        width: 85%;
+    }
+    footer ul{
+        width: 80%;
+    }
+}
