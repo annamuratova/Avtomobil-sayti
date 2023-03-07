@@ -256,6 +256,7 @@ main .col:hover {
     width: 400px;
     height: 60px;
     font-weight: bold;
+    outline: none;
 }
 
 .main-card .btn {
@@ -522,7 +523,6 @@ footer ul li{
     left:0;
     top: 0;
     background-color: rgba(77, 73, 73, 0.9);
-    z-index: ;
 }
  
 
